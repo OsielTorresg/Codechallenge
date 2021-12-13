@@ -1,0 +1,33 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  background-color: #FFFFFF;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-gap: 10px;
+}
+.items {
+  background-color: red;
+  padding: 20px;
+  margin: 10px;
+  color: white;
+  font-size: large;
+}
+.flag {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  height: 45%;
+  z-index: 999;
+  border: 3px solid darkblue;
+}
+
+  
+  
